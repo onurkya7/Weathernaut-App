@@ -89,21 +89,21 @@
                 <TextView
                     android:id="@+id/tv_degree"
                     android:layout_width="match_parent"
-                    android:layout_height="496dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textSize="72sp" />
+                    android:textSize="65sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="wrap_content"
                     android:background="#4DFFFFFF"
                     android:orientation="horizontal"
                     android:padding="15dp">
 
                     <LinearLayout
-                        android:layout_width="266dp"
-                        android:layout_height="84dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
@@ -113,15 +113,15 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="CITY CODE"
-                            android:textSize="27sp" />
+                            android:textSize="23sp" />
 
                         <TextView
                             android:id="@+id/tv_city_name"
                             android:layout_width="wrap_content"
-                            android:layout_height="45dp"
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="CITY NAME"
-                            android:textSize="22sp" />
+                            android:textSize="17sp" />
 
                     </LinearLayout>
 
@@ -134,83 +134,73 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="400dp"
-                    android:layout_height="139dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:background="#4DFFFFFF"
                     android:orientation="horizontal"
                     android:padding="15dp">
 
                     <LinearLayout
-                        android:layout_width="96dp"
-                        android:layout_height="118dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <!--Nem-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Humidity" />
 
                         <!--Rüzgar Hızı-->
-
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Humidity"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Wind Speed"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wind Speed" />
 
                         <!--Enlem-->
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Latitude"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Latitude" />
 
                         <!--Boylam-->
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Longitude"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Longitude" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="107dp"
-                        android:layout_height="125dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/tv_humidity"
-                            android:layout_width="118dp"
-                            android:layout_height="29dp"
-                            android:text=": bilgi1"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":bilgi1" />
 
                         <TextView
                             android:id="@+id/tv_wind_speed"
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text=": bilgi2"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":bilgi2" />
 
                         <TextView
                             android:id="@+id/tv_lat"
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text=": bilgi3"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":bilgi3" />
 
                         <TextView
                             android:id="@+id/tv_lon"
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text=": bilgi4"
-                            android:textSize="16sp" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":bilgi4" />
 
                     </LinearLayout>
 
